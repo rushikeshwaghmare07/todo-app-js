@@ -55,3 +55,54 @@ body {
   font-family: inherit;
   border-radius: 0.3rem;
 }
+.todos {
+  margin-top: 1rem;
+}
+.todo {
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  height: 42px;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.toggle-delete {
+  display: flex;
+  /* border: 2px solid green; */
+  gap: 1rem;
+}
+.delete-todo-button {
+  font-family: inherit;
+  font-weight: bold;
+  width: 20px;
+  padding: 0 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.todo-checkbox {
+  /* height: 60px; */
+  width: 20px;
+  outline: none;
+  border: none;
+  accent-color: white;
+}
+.todo-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-super-light);
+  text-transform: capitalize;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
