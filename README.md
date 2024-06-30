@@ -4,7 +4,7 @@ This project is a simple To-Do application built using JavaScript. The applicati
 
 ## Features
 
-- Add, edit, and delete tasks
+- Add and delete tasks
 - Mark tasks as completed or pending
 - Automatic UI updates using proxies
 - Simple and intuitive interface
