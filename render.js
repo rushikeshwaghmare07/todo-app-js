@@ -1,4 +1,4 @@
-import store from "./store";
+import store from "./store.js";
 
 function render() {
   const todos = document.querySelector(".todos");
